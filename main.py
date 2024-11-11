@@ -91,7 +91,7 @@ CREATE TABLE salaries (
 ) 
 ;'''
     
-    GOOGLE_API_KEY="AIzaSyCHl3DCDk-rb7lXeJJqkjoYTQEpcAHXdcU"
+    GOOGLE_API_KEY="YOUR GEMINI API KEY"
 
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel(model_name='gemini-1.5-flash')
